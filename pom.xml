@@ -5,7 +5,11 @@
 
     <groupId>com.valhalla</groupId>
     <artifactId>kese</artifactId>
+
     <version>1.0.1</version>
+
+    <version>1.0.0</version>
+
     <name>Kese</name>
     <description>Paper plugin for Vault-backed gold currency conversion and economy nerfs.</description>
 
@@ -19,11 +23,23 @@
             <id>papermc</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
+
         <repository>
             <id>jitpack</id>
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
+
+
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>papermc</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
 
     <dependencies>
         <dependency>
@@ -33,7 +49,10 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+
             <groupId>com.github.MilkBowl</groupId>
+
+            <groupId>net.milkbowl.vault</groupId>
             <artifactId>VaultAPI</artifactId>
             <version>1.7</version>
             <scope>provided</scope>

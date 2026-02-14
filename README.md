@@ -64,7 +64,11 @@ Tüm dönüşümler sadece `0.125` katları için geçerlidir.
 ## Geliştirme
 
 - API: `io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT` (provided)
+
 - Vault API: `com.github.MilkBowl:VaultAPI:1.7` (provided)
+=======
+- Vault API: `net.milkbowl.vault:VaultAPI:1.7` (provided)
+
 - Java release: 21
 
 ## GitHub Actions
@@ -76,6 +80,9 @@ Repo içinde `Build Jar` workflow'u bulunur:
 - Üretilen JAR dosyasını `kese-jar` adıyla artifact olarak yükler.
 
 
+
 ## Notlar
 
 - `pom.xml` içinde Vault API için `com.github.MilkBowl:VaultAPI:1.7` ve `jitpack` deposu kullanılır.
+=======
+
