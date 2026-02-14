@@ -74,3 +74,8 @@ Repo içinde `Build Jar` workflow'u bulunur:
 - `main` branch'ine push edildiğinde ve manuel (`workflow_dispatch`) tetiklenebilir.
 - Java 21 (Temurin) ile `mvn -B clean package` çalıştırır.
 - Üretilen JAR dosyasını `kese-jar` adıyla artifact olarak yükler.
+
+
+## Notlar
+
+- `pom.xml` içinde Vault API için `com.github.MilkBowl:VaultAPI:1.7` ve `jitpack` deposu kullanılır.
