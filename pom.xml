@@ -17,28 +17,34 @@
         <maven.compiler.release>21</maven.compiler.release>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>papermc</id>
-            <url>https://repo.papermc.io/repository/maven-public/</url>
-        </repository>
-    </repositories>
+<repositories>
+  <repository>
+    <id>papermc</id>
+    <url>https://repo.papermc.io/repository/maven-public/</url>
+  </repository>
 
-    <dependencies>
-        <dependency>
-            <groupId>io.papermc.paper</groupId>
-            <artifactId>paper-api</artifactId>
-            <version>1.21.11-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
+  <repository>
+    <id>jitpack</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
 
-        <dependency>
-            <groupId>net.milkbowl.vault</groupId>
-            <artifactId>VaultAPI</artifactId>
-            <version>1.7</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
+<dependencies>
+  <dependency>
+    <groupId>io.papermc.paper</groupId>
+    <artifactId>paper-api</artifactId>
+    <version>1.21.11-R0.1-SNAPSHOT</version>
+    <scope>provided</scope>
+  </dependency>
+
+  <dependency>
+    <groupId>com.github.MilkBowl</groupId>
+    <artifactId>VaultAPI</artifactId>
+    <version>1.7</version>
+    <scope>provided</scope>
+  </dependency>
+</dependencies>
+
 
     <build>
         <plugins>
