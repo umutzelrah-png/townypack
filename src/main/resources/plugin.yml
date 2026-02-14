@@ -1,0 +1,14 @@
+name: Kese
+version: 1.0.0
+main: com.valhalla.kese.KesePlugin
+api-version: '1.21'
+author: valhalla
+softdepend: [Vault]
+commands:
+  kese:
+    description: Vault para birimi ile altın eşyaları arasında dönüşüm yapar.
+    usage: /kese <koy|al> <miktar>
+    permission: kese.use
+permissions:
+  kese.use:
+    default: true
