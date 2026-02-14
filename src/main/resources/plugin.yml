@@ -1,8 +1,5 @@
 name: Kese
-version: 1.0.1
-=======
 version: 1.0.0
-
 main: com.valhalla.kese.KesePlugin
 api-version: '1.21'
 author: valhalla
